@@ -1,2 +1,0 @@
-# DevadharshiniMohan
-print("Hello")
