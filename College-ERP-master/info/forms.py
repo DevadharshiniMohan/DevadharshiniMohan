@@ -18,6 +18,8 @@ class Office_staff_form(ModelForm):
             'DOB' : forms.TextInput(attrs={'type':'date','style': 'width: 300px;'}),
             'Designation': forms.Select(attrs={'style': 'width: 300px;'}),
         }
+
+        print("Hello")
        
 
         # def __init__(self, *args, **kwargs):
