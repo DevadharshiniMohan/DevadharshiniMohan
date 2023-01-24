@@ -19,8 +19,7 @@ class Office_staff_form(ModelForm):
             'Designation': forms.Select(attrs={'style': 'width: 300px;'}),
         }
 
-        print("Hello")
-       
+      
 
         # def __init__(self, *args, **kwargs):
         #     super().__init__(*args, **kwargs)
