@@ -465,7 +465,8 @@ def update_officestaff(request, ID):
 def delete_officestaff(request, ID):
 
     delete_staff = Office_staff.objects.get(ID=ID)
-    print(delete_staff)
+    form = Office_staff_form(instance=delete_staff)
+    print(form)
 
     if request.method == 'POST':
         delete_staff.delete()
